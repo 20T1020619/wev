@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MiaFood</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./assets/style.css" />
+    </head>
+    <body>
+        <header id="header">
+            <div class="container">
+                <div class="header__container">
+                    <div class="header__logo">
+                        <a href="#">
+                            <img src="./assets/img/logo1.png" class="logo" alt="logo" />
+                            <span class="header__logo-text">MIAFOOD</span>
+                        </a>
+                    </div>
+
+                    <ul id="navbar">
+                        <li><a href="banggia.html">BẢNG GIÁ</a></li>
+                        <li><a class="navbar--selected" href="#sapham">SẢN PHẨM</a></li>
+                        <li><a href="#khuyenmai">KHUYẾN MÃI</a></li>
+                        <li><a href="theodoidonhang.html">THEO DÕI ĐƠN HÀNG</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__banner"></div>
+        </header>
+        <main>
+            <div class="products">
+                <div class="container">
+                    <div class="product__container">
+                        <h3 class="product__title">các loại sản phẩm</h3>
+                    </div>
+                    <div class="product__list"></div>
+
+                    <div class="product__cost">
+                        <div class="product__cost-title">bảng giá sỉ đồ ăn vặt miafood 2023</div>
+                        <p>Chuyên sỉ đồ ăn vặt cung cấp đồ ăn vặt giá sỉ cạnh tranh. Menu hơn 200 món ăn vặt ngon lựa chọn sản phẩm có nguồn gốc xuất xứ đảm bảo chất lượng an toàn vệ sinh thực phẩm. Giao hàng nhanh trên toàn quốc.</p>
+                    </div>
+                    <div class="product_search">
+                        <div class="search_box">
+                            <span>Tìm kiếm:</span>
+                            <from class="search">
+                                <input type="text" name="" id="search-item" placeholder="">
+                            </from>
+                        </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="category_list" class="menu_rightlist" >
+                    <a href="#menu">
+                        <img src="./assets/img/hang-nhap-khau.jpg" alt="hàng nhập khẩu">
+                        <span>Hàng nhập khẩu</span>
+                    </a>
+                    <a href="#menu">
+                        <img src="./assets/img/kho-ca-loai.jpg" alt="các loại khô">
+                        <span>Khô</span>
+                    </a>
+                    <a href="#menu">
+                        <img src="./assets/img/do-an-vat.jpg" alt="đồ ăn vặt">
+                        <span>Món ăn vặt</span>
+                    </a>
+                    <a href="#menu">
+                        <img src="./assets/img/hat-dinh-duong.jpg" alt="hạt ding dưỡng">
+                        <span>Hạt</span>
+                    </a>
+                    <a href="#menu">
+                        <img src="./assets/img/banh-cac-loai.jpg" alt="các loại bánh">
+                        <span>Bánh</span>
+                    </a>
+                    <a href="#menu">
+                        <img src="./assets/img/banh-keo.jpg" alt="kẹo các loại">
+                        <span>Kẹo</span>
+                    </a>
+                    <a href="#menu">
+                        <img src="./assets/img/trai-cay-say.jpg" alt="trái cây sấy & mức">
+                        <span>Trái cây sấy</span>
+                    </a>
+                    <a href="#menu">
+                        <img src="./assets/img/mut-cac-loai.jpg" alt="mứt các loại">
+                        <span>Mứt</span>
+                    </a>
+                    <a href="#menu">
+                        <img src="./assets/img/cac-loai-dau.jpg" alt="đậu các loại">
+                        <span>Đậu</span>
+                    </a>
+                </div>
+                <div class="contact_icon" status="1" style="transform: rotateY(1turn);">
+                    <img src="./assets/img/icon-support.png" alt="liên hệ hỗ trợ">
+                </div>
+                <div class="contact_box" class="menu_right" style="right: 75px;">
+                    <a href="tel:+84923563780" class="link_contact">
+                        <img src="./assets/img/phone-call-icon.png" alt="gọi điện">
+                    </a>
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100012370246020" class="link_contact">
+                        <img src="./assets/img/messenger.png" alt="liên hệ messenger">
+                    </a>
+                    <a target="_blank" href="https://miafood.vn/giasi/lien-he-zalo" class="link_contact">
+                        <img src="/assets/img/logo-zalo.png" alt="liên hệ zalo">
+                    </a>    
+                </div>
+                <div class="menu_right">
+                    <div class="sidebar">
+                        <div class="cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="quantity">0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="ordercart" style="left: 0px;">
+                    <table id="tbl_ordercast" class="table_striped">
+                        <thead>
+                            <tr>
+                                <tr colspan="6">
+                                    <strong>
+                                        <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                                        <span>chi tiết bán hàng</span>
+                                    </strong>
+                                </tr>
+                            </tr>
+                        </thead>
+                    </table>
+
+                </div>
+                </div>
+            </div>
+        </main>
+        <script type="module" src="./index.js"></script>
+    </body>
+</html>
